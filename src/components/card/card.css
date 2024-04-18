@@ -1,0 +1,90 @@
+.card {
+  width: 250px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+.image_box {
+  width: 100%;
+}
+.image_box .image {
+  width: 100%;
+  height: 200px;
+}
+.rating {
+  float: right;
+  margin: 10px;
+  padding: 2px 4px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: green;
+  display: flex;
+  align-items: center;
+}
+.rating span {
+  color: #333;
+}
+/* cart.css */
+
+.description_box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.brand {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.new-price {
+  font-weight: bold;
+  color: #444;
+}
+
+.old-price {
+  color: #999;
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+.offerprice {
+  color: #28a745;
+}
+
+.cart-btn {
+  margin-top: 15px;
+}
+
+.cart-btn button {
+  width: 100%;
+  cursor: pointer;
+  padding: 8px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.cart-btn button:hover {
+  background-color: #333;
+}
